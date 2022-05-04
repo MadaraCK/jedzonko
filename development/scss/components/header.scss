@@ -1,0 +1,41 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $header-color;
+  height: toRem(80);
+
+  &__bars{
+    display: flex;
+    gap: toRem(10);
+    margin-left: toRem(60);
+    font-family: $logo-font;
+  }
+
+  &__logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: $logo-color;
+    font-size: toRem(32);
+  }
+  &__logo2{
+    color: $logo-color-2;
+    font-size: toRem(32);
+  }
+  &__menu {
+    display: flex;
+    gap: toRem(80);
+    margin-right: toRem(100);
+    font-family: sans-serif;
+    &--links{
+      text-decoration: none;
+      color: $background-screen-color;
+      font-size: toRem(12);
+    }
+    &--links:nth-child(1){
+      color: $logo-color-2;
+    }
+  }
+}

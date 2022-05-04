@@ -1,0 +1,19 @@
+.action{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: toRem(150);
+  background-color: $nav-color;
+  color: $logo-color;
+  padding: 0 toRem(80);
+  &__text{
+    margin-bottom: 20px;
+  }
+  &__btn{
+    border: none;
+    width: toRem(120);
+    height: toRem(30);
+    background-color: $buttons-color;
+    color: $logo-color;
+  }
+}

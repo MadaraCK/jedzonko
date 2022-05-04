@@ -1,0 +1,37 @@
+@import "../variables/variables";
+
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: toRem(120);
+  background-color: $nav-color;
+  color: $logo-color;
+  padding: 0 toRem(100);
+  font-family: 'Open Sans', sans-serif;
+
+  &__text{
+    font-size: toRem(38);
+
+    font-weight: 300;
+  }
+
+
+  &__input{
+    height: toRem(41);
+    width: toRem(200);
+    font-size: toRem(18);
+    margin-right: toRem(-5);
+  }
+  &__btn{
+    border: none;
+    width: toRem(100);
+    height: toRem(40);
+    background-color: $buttons-color;
+    color: $logo-color;
+    cursor: pointer;
+    font-size: toRem(18);
+
+  }
+
+}

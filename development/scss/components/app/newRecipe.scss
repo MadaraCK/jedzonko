@@ -1,0 +1,98 @@
+
+
+.hide_recipe{
+  display: none;
+}
+
+
+.new_recipe_box{
+  border: 1px dashed $text-in-table-color;
+  background-color: $app-form-color;
+  position: absolute;
+  left: 28%;
+  width: toRem(1050);
+  margin-top: toRem(50);
+  padding: toRem(15);
+}
+.new_recipe_first{
+  padding: toRem(10) toRem(0);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $nav-color;
+}
+.recipe_text{
+  color: $buttons-color;
+  text-transform: uppercase;
+}
+.close_recipe{
+  cursor: pointer;
+  background-color: $buttons-color;
+  color: $app-form-color;
+  padding: toRem(5);
+  border: 0;
+}
+.both_input_recipe{
+  display: flex;
+  margin: toRem(15);
+}
+.both_input{
+  color: $nav-color;
+}
+.input_text_recipe{
+  margin-left: toRem(10);
+  width: toRem(800);
+}
+
+.text_area_recipe{
+  resize: none;
+  margin-left: toRem(29);
+}
+.text_area_recipe,
+.input_text_recipe{
+  color: $nav-color;
+}
+
+.both_input_recipe{
+  color: $nav-color;
+}
+.plus{
+  position: absolute;
+  font-size: toRem(25);
+  color: $success-color;
+  margin-left: toRem(5);
+
+}
+.inst_area{
+  padding: toRem(5);
+  resize: none;
+  color: $nav-color;
+}
+.instruction_recipe{
+  margin: toRem(30) toRem(0);
+  overflow: auto;
+  padding-left: toRem(15);
+  max-width: toRem(450);
+  max-height: toRem(200);
+}
+.recipe_main{
+  display: flex;
+  justify-content: center;
+  gap: toRem(70);
+}
+.inst-box{
+  text-transform: uppercase;
+  color: $nav-color;
+  margin-bottom: toRem(15);
+
+}
+
+.fa-pen-to-square{
+  color: $logo-color-2;
+  margin-left: 2px;
+}
+.fa-trash-can{
+  color: $basket-color;
+}
+.affter_li{
+  color: $nav-color;
+}

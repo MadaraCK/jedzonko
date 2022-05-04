@@ -1,0 +1,121 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.hideClass_plan{
+  display: none;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.new-plan__box{
+  height: 80%;
+  background-color: #fffcf3;
+  position: absolute;
+  top: 150px;
+  left: 380px;
+  right: 45px;
+  bottom: 50px;
+  padding: 30px 40px;
+  border: 1px dashed $text-in-table-color;
+}
+
+.new-plan__heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 7px;
+  border-bottom: 1px solid $text-in-table-color;
+  margin-bottom: 20px;
+
+
+  .new-plan__heading-title{
+    color: $buttons-color;
+  }
+
+  .new-plan__heading-btn{
+    background-color: $buttons-color;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+}
+
+.new-plan__description {
+  & > div{
+    margin-bottom: 15px;
+  }
+
+  .plan-number__box::after{
+    content: "";
+    display: block;
+    width: calc(100% - 115px);
+    height:1px;
+    background-color: $text-in-table-color;
+    margin: 20px 0 0 115px;
+  }
+
+ label {
+   color: $text-in-table-color;
+   font-size: 20px;
+ }
+
+  #plan-name{
+    width: 80%;
+    margin-left: 8px;
+    padding: 7px;
+  }
+
+  #plan-description{
+    width: 80%;
+    height: 70px;
+    margin-left: 28px;
+    padding: 7px;
+    resize: none;
+  }
+
+  #plan-number{
+    padding: 7px;
+    width: 30px;
+  }
+
+  .description__box label {
+    position: relative;
+    bottom: 50px;
+  }
+}
+
+.new-plan__table {
+  width: 100%;
+  border-collapse: collapse;
+  color: $header-color;
+  font-weight: bold;
+
+  td,
+  th {
+    border-bottom: 1px solid $text-in-table-color;
+    padding: 8px 0;
+    text-align: center;
+    color: $header-color;
+    font-weight: bold;
+
+    select{
+      padding: 5px 40px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 4px $text-in-table-color;
+      color: $text-in-table-color;
+    }
+  }
+
+  th{
+    font-size: 1.4rem;
+  }
+
+}

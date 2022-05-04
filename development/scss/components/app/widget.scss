@@ -1,0 +1,152 @@
+
+.widget_box{
+  //display: block;
+}
+
+.main{
+  display: flex;
+}
+.box_recipe{
+  display: flex;
+}
+.widget_recipe,
+.widget_plan{
+  text-decoration: none;
+  color: $success-color;
+}
+.recipe_box{
+  margin: toRem(30) toRem(10) toRem(0) toRem(80);
+  padding: toRem(40);
+  background-color: $background-screen-color;
+  text-align: center;
+  border: toRem(3) dotted $success-color;
+}
+.text_under_widget{
+  font-size: toRem(10);
+  margin-top: toRem(5);
+
+}
+.fa-square-plus{
+  font-size: toRem(35);
+}
+th{
+  margin: toRem(10);
+  padding: toRem(5);
+  border-bottom: 1px solid grey;
+}
+.number_of_week{
+  color: $buttons-color;
+  font-size: toRem(26);
+}
+.day_of_the_week{
+  color: $header-color;
+  font-size: toRem(32);
+}
+
+.table_food{
+
+  background-color: $background-screen-color;
+  padding: toRem(20);
+  margin: toRem(50) toRem(20) toRem(0) toRem(80);
+  border: toRem(3) dotted  $success-color;
+}
+tbody{
+  color: $text-in-table-color;
+}
+.next_plan{
+  padding: toRem(5);
+  display: flex;
+  justify-content: space-between;
+}
+.both_angles{
+
+  padding: toRem(5);
+  text-decoration: none;
+  color: $buttons-color;
+}
+
+.recipe_box:nth-child(3){
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info_box{
+  border: toRem(3) dotted $info-color;
+  display: flex;
+  align-items: center;
+  padding: toRem(10);
+  min-width: toRem(600);
+  position: relative;
+  background-color: $background-screen-color;
+
+  &:nth-child(1){
+    border-color: $info-color;
+    color: $info-color;
+    & button{
+      background-color: $info-color;
+    }
+  }
+
+  &:nth-child(2){
+    border-color: $warning-color;
+    color: $warning-color;
+    & button{
+      background-color: $warning-color;
+    }
+  }
+
+  &:nth-child(3){
+    border-color: $success-color;
+    color: $success-color;
+    & button{
+      background-color: $success-color;
+    }
+  }
+
+
+  & i {
+    position: relative;
+    font-size: toRem(30);
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: toRem(10);
+  }
+  & h2 {
+    //position: relative;
+    font-size: toRem(20);
+    //top: 50%;
+    //transform: translateY(-50%);
+  }
+  & button {
+    position: absolute;
+    top: toRem(5);
+    right: toRem(5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: toRem(20);
+    height: toRem(17);
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: toRem(3);
+    cursor: pointer;
+
+
+    & i {
+      padding: 0;
+      max-resolution: 0;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: toRem(10);
+
+    }
+  }
+}
+

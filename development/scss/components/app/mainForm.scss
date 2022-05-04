@@ -1,0 +1,78 @@
+@import "../../variables/variables";
+
+//.hero{
+//  display: grid;
+//  grid-template-columns: 1fr 6fr;
+//  position: relative;
+//}
+
+.message {
+  position: absolute;
+  top: 70px;
+  left: 345px;
+
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-color: $app-form-color;
+  border: toRem(1) dashed $nav-color;
+  height: calc(100vh - toRem(180));
+  margin: toRem(50);
+  padding-top: toRem(60);
+  color: $nav-color;
+
+  &__first {
+    font-size: toRem(32);
+    font-weight: 400;
+  }
+
+  &__second {
+    font-size: toRem(22);
+    font-weight: 400;
+
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: toRem(10);
+    font-family: $text-font;
+
+    &--input {
+
+      font-size: toRem(12);
+      width: toRem(260);
+      height: toRem(22);
+      border: toRem(1) solid $nav-color;
+
+      &::placeholder {
+        padding-left: toRem(10);
+        opacity: 0.6;
+
+      }
+    }
+    &--button {
+      border: none;
+      padding: toRem(5) toRem(25);
+      background-color: $buttons-color;
+      color: $logo-color;
+      font-weight: 700;
+      font-size: toRem(16);
+      cursor: pointer;
+    }
+    &--paragraph{
+     margin-top: toRem(10);
+    }
+  }
+}
+
+.hideClass {
+  display:none;
+}
+
+
+

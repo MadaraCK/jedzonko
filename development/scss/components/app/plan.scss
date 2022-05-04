@@ -1,0 +1,82 @@
+.hidePlans{
+  display: none;
+}
+.plans_box{
+  position: absolute;
+  border: 1px dashed $text-in-table-color;
+  margin: 30px;
+  left: 18%;
+  width: toRem(1280);
+  height: toRem(535);
+  overflow: auto;
+  background-color: $app-form-color;
+}
+.container_plans{
+  padding: toRem(20);
+}
+.list_plan_button{
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $nav-color;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: toRem(15);
+}
+.plus-x{
+  color: $success-color ;
+}
+.color-list-text{
+  color: $buttons-color;
+}
+.id_name{
+  text-transform: uppercase;
+  display: flex;
+  border-top: 1px solid $text-in-table-color;
+  border-bottom: 1px solid $text-in-table-color;
+
+
+  padding: toRem(0) toRem(22);
+}
+.text_plans_box{
+  padding: 10px;
+  border-bottom: 1px solid $text-in-table-color;
+
+  color: $header-color;
+
+}
+.box-1,
+.box-2{
+  max-width: 10vw;
+  margin-right: toRem(40);
+}
+.box-3{
+  margin-left: toRem(80);
+  width: 70vw;
+}
+.box-4,
+.box-5{
+  margin-right: toRem(25);
+}
+.text-box-1{
+  max-width: toRem(10);
+  margin-left: toRem(22);
+}
+.text-box-2{
+  max-width: toRem(100);
+}
+.text-box-3{
+  max-width: toRem(550);
+}
+.text-box-5{
+  padding-right: toRem(100);
+}
+
+.text_plans_box{
+
+  display: flex;
+  justify-content: space-between;
+}
+.all_plans{
+  border: none;
+}

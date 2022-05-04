@@ -1,0 +1,50 @@
+.footer_box{
+  background-color: $nav-color;
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-size: toRem(19);
+  padding: toRem(20) toRem(0);
+
+}
+.text-box{
+  max-width: toRem(250);
+}
+.icon{
+  font-size: toRem(35);
+}
+.fa-twitter-square{
+  margin: toRem(25) toRem(30);
+}
+.button_footer{
+  height: toRem(30);
+  background-color: $buttons-color;
+  color: white;
+  padding: toRem(3);
+  font-size: toRem(16);
+  border: none;
+}
+.li_footer{
+  margin: toRem(0) toRem(80);
+}
+.li_text_footer{
+  margin-bottom: toRem(13);
+}
+.h2_footer{
+  margin-bottom: toRem(10);
+}
+.input_footer{
+  height: toRem(32);
+}
+.copyright{
+  font-size: toRem(18);
+  display: flex;
+  justify-content: center;
+  background-color: $header-color;
+  color: white;
+  padding: toRem(20);
+}
+.page_name{
+  color: $logo-color-2;
+  margin-left: toRem(10);
+}

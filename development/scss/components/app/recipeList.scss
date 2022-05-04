@@ -1,0 +1,80 @@
+@import "../../variables/variables";
+.listClass{
+  display: none;
+}
+
+.list{
+  background-color: $app-form-color;
+  margin: toRem(20) toRem(40);
+  font-family: $text-font;
+  font-size: toRem(15);
+  height: 100%;
+
+  &__box{
+    padding: toRem(5) toRem(0);
+
+    &--first{
+      display: flex;
+      justify-content: space-between;
+      margin: toRem(10) toRem(20);
+      border-bottom: 1px solid $nav-color;
+
+    }
+    &--text{
+      color: $buttons-color;
+      font-weight: 400;
+      font-size: toRem(24);
+    }
+
+  }
+  &__menu{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 6fr 70px;
+    margin: toRem(0) toRem(30);
+    padding: toRem(10) toRem(0);
+    border-top: 1px solid $nav-color;
+    border-bottom: 1px solid $nav-color;
+    color: $nav-color;
+    font-weight: 700;
+    &--description{
+      margin-left: toRem(22);
+    }
+  }
+
+}
+
+.menu {
+  margin: toRem(0) toRem(30);
+  height: toRem(450);
+  overflow-y:auto;
+
+
+  &__container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 6fr 30px 30px;
+    border-bottom: 1px solid $nav-color;
+    margin-bottom: toRem(10);
+    &--name{
+      padding-right: toRem(18);
+    }
+
+    &--description{
+      max-width: toRem(550);
+      text-align: justify;
+      margin-left: toRem(20);
+    }
+
+  }
+}
+
+.edit{
+  color: $logo-color-2;
+}
+.delete{
+ color: tomato;
+}
+.plus-list{
+  cursor: pointer;
+  font-size: toRem(25);
+  color: $success-color;
+}

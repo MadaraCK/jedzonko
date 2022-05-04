@@ -1,0 +1,33 @@
+@import "../variables/variables";
+
+
+.about_me{
+  max-width: toRem(800);
+  margin: toRem(30) auto;
+
+  .container{
+    display: flex;
+    flex-gap: toRem(30);
+
+    .image{
+      width: toRem(200);
+      height: toRem(200);
+      flex-shrink: 0;
+      background-color: #535353;
+    }
+    .description{
+      padding: 0 toRem(50) ;
+      font-family: $text-font;
+    }
+    .description h3{
+      font-size: toRem(20);
+      font-weight: 600;
+      padding-bottom: toRem(10);
+    }
+    .description p{
+      font-size: toRem(15);
+      font-weight: 400;
+      padding-bottom: toRem(10);
+    }
+  }
+}

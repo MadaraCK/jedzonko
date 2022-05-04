@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Zaplanuj Jedzonko</title>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <script src="https://kit.fontawesome.com/7f80c8b954.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+<header class="header">
+    <div class="navbar__bars">
+        <a class="link_home" href="index.html">
+        <h1 class="navbar__logo">Zaplanuj</h1>
+        <h1 class="navbar__logo2">Jedzonko</h1>
+        </a>
+    </div>
+    <div class="person">
+        <span class="person__name">Imię</span>
+        <i class="fa-regular fa-circle-user"></i>
+    </div>
+</header>
+<section class="hero">
+    <main class="main">
+        <nav class="navigation">
+            <a href="#" class="navigation__link pulpit">Pulpit</a>
+            <a href="#" class="navigation__link recipes_js">Przepisy</a>
+            <a href="#" class="navigation__link plans">Plany</a>
+        </nav>
+
+        <!--        shopping list-->
+        <section class="list listClass">
+            <header class="list__box">
+                <div class="list__box--first">
+                    <h2 class="list__box--text">LISTA PRZEPISÓW</h2>
+                    <i class="fa-solid fa-square-plus plus-list"></i>
+                </div>
+
+                <div class="list__menu">
+                    <div class="list__menu--id">ID</div>
+                    <div class="list__menu--name">NAZWA</div>
+                    <div class="list__menu--description">OPIS</div>
+                    <div class="list__menu--actions">AKCJE</div>
+                </div>
+            </header>
+
+            <main class="menu">
+                <div class="menu__container">
+                    <p class="menu__container--id">1</p>
+                    <p class="menu__container--name">Zapiekanka z ziemniakami i brukselką</p>
+                    <p class="menu__container--description">Mamusina najlepsza zapiekanka pod słońcem.
+                        Można ją podać jako główne danie albo jako kolację.
+                        W zapiekance możesz użyć również kiełbasy paprykowej
+                        sprawi ona, żę zapiekanka będzie ostrzejsza w smaku.
+                        Zgodnie z zaleceniami Makłowicza, podawać z dobrze dobranym winkiem.
+                    </p>
+                    <a class="menu__container--edit" href="#">
+                        <i class="fa-regular fa-pen-to-square edit"></i>
+                    </a>
+                    <a class="menu__container--delete" href="#">
+                        <i class="fa-solid fa-trash-can delete"></i>
+                    </a>
+                </div>
+
+                <div class="list__container">
+                    <div class="menu__container">
+                        <p class="menu__container--id">2</p>
+                        <p class="menu__container--name">Zapiekanka z ziemniakami i brukselką</p>
+                        <p class="menu__container--description">Mamusina najlepsza zapiekanka pod słońcem.
+                            Można ją podać jako główne danie albo jako kolację.
+                            W zapiekance możesz użyć również kiełbasy paprykowej
+                            sprawi ona, żę zapiekanka będzie ostrzejsza w smaku.
+                            Zgodnie z zaleceniami Makłowicza, podawać z dobrze dobranym winkiem.
+                        </p>
+                        <a class="menu__container--edit" href="#">
+                            <i class="fa-regular fa-pen-to-square edit"></i>
+                        </a>
+                        <a class="menu__container--delete" href="#">
+                            <i class="fa-solid fa-trash-can delete"></i>
+                        </a>
+                    </div>
+
+                    <div class="list__container">
+                        <div class="menu__container">
+                            <p class="menu__container--id">3</p>
+                            <p class="menu__container--name">Zapiekanka z ziemniakami i brukselką</p>
+                            <p class="menu__container--description">Mamusina najlepsza zapiekanka pod słońcem.
+                                Można ją podać jako główne danie albo jako kolację.
+                                W zapiekance możesz użyć również kiełbasy paprykowej
+                                sprawi ona, żę zapiekanka będzie ostrzejsza w smaku.
+                                Zgodnie z zaleceniami Makłowicza, podawać z dobrze dobranym winkiem.
+                            </p>
+                            <a class="menu__container--edit" href="#">
+                                <i class="fa-regular fa-pen-to-square edit"></i>
+                            </a>
+                            <a class="menu__container--delete" href="#">
+                                <i class="fa-solid fa-trash-can delete"></i>
+                            </a>
+                        </div>
+
+                        <div class="list__container">
+                            <div class="menu__container">
+                                <p class="menu__container--id">4</p>
+                                <p class="menu__container--name">Zapiekanka z ziemniakami i brukselką</p>
+                                <p class="menu__container--description">Mamusina najlepsza zapiekanka pod słońcem.
+                                    Można ją podać jako główne danie albo jako kolację.
+                                    W zapiekance możesz użyć również kiełbasy paprykowej
+                                    sprawi ona, żę zapiekanka będzie ostrzejsza w smaku.
+                                    Zgodnie z zaleceniami Makłowicza, podawać z dobrze dobranym winkiem.
+                                </p>
+                                <a class="menu__container--edit" href="#">
+                                    <i class="fa-regular fa-pen-to-square edit"></i>
+                                </a>
+                                <a class="menu__container--delete" href="#">
+                                    <i class="fa-solid fa-trash-can delete"></i>
+                                </a>
+                            </div>
+                            <div class="menu__container">
+                                <p class="menu__container--id">5</p>
+                                <p class="menu__container--name">Zapiekanka z ziemniakami i brukselką</p>
+                                <p class="menu__container--description">Mamusina najlepsza zapiekanka pod słońcem.
+                                    Można ją podać jako główne danie albo jako kolację.
+                                    W zapiekance możesz użyć również kiełbasy paprykowej
+                                    sprawi ona, żę zapiekanka będzie ostrzejsza w smaku.
+                                    Zgodnie z zaleceniami Makłowicza, podawać z dobrze dobranym winkiem.
+                                </p>
+                                <a class="menu__container--edit" href="#">
+                                    <i class="fa-regular fa-pen-to-square edit"></i>
+                                </a>
+                                <a class="menu__container--delete" href="#">
+                                    <i class="fa-solid fa-trash-can delete"></i>
+                                </a>
+                            </div>
+
+
+
+
+        </section>
+
+        <section class="widget_box">
+            <div class="box_recipe">
+
+                <div class="recipe_box">
+                    <a class="widget_recipe" href="#">
+                        <i class="fa-regular fa-square-plus"></i>
+                        <h2 class="text_under_widget">dodaj przepis</h2>
+                    </a>
+                </div>
+
+                <div class="recipe_box">
+                    <a class="widget_plan" href="#">
+                        <i class="fa-regular fa-square-plus"></i>
+                        <h2 class="text_under_widget">dodaj plan</h2>
+                    </a>
+                </div>
+
+                <div class="recipe_box">
+
+
+                    <div class="info_box">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <h2 class="text_under_widget">Masz już 99 przepisów, nieżle</h2>
+                        <button><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="info_box">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <h2 class="text_under_widget">Pamiętaj aby dodać plan!</h2>
+                        <button><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="info_box">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h2 class="text_under_widget">Świetnie że jesteś! Udanego planowania i smacznego! :)</h2>
+                        <button><i class="fa-solid fa-x"></i></button>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            </div>
+
+
+
+            <div class="table_food">
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="number_of_week" colspan="7">Twój plan na {nr_tygodnia} tydzień:</th>
+                    </tr>
+                    <tr class="day_of_the_week">
+                        <th>Poniedziałek</th>
+                        <th>Wtorek</th>
+                        <th>Środa</th>
+                        <th>Czwartek</th>
+                        <th>Piątek</th>
+                        <th>Sobota</th>
+                        <th>Niedziela</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>sniadanie</th>
+                        <th>sniadanie</th>
+                        <th>sniadanie</th>
+                        <th>sniadanie</th>
+                        <th>sniadanie</th>
+                        <th>sniadanie</th>
+                        <th>sniadanie</th>
+                    </tr>
+                    <tr>
+                        <th>drugie sniadanie</th>
+                        <th>drugie sniadanie</th>
+                        <th>drugie sniadanie</th>
+                        <th>drugie sniadanie</th>
+                        <th>drugie sniadanie</th>
+                        <th>drugie sniadanie</th>
+                        <th>drugie sniadanie</th>
+                    </tr>
+                    <tr>
+                        <th>zupa</th>
+                        <th>zupa</th>
+                        <th>zupa</th>
+                        <th>zupa</th>
+                        <th>zupa</th>
+                        <th>zupa</th>
+                        <th>zupa</th>
+                    </tr>
+                    <tr>
+                        <th>drugie danie</th>
+                        <th>drugie danie</th>
+                        <th>drugie danie</th>
+                        <th>drugie danie</th>
+                        <th>drugie danie</th>
+                        <th>drugie danie</th>
+                        <th>drugie danie</th>
+                    </tr>
+                    <tr>
+                        <th>kolacja</th>
+                        <th>kolacja</th>
+                        <th>kolacja</th>
+                        <th>kolacja</th>
+                        <th>kolacja</th>
+                        <th>kolacja</th>
+                        <th>kolacja</th>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="next_plan">
+
+                    <div class="angles_left ">
+                        <a class="both_angles" href="#">
+                            <i class="fa-solid fa-angles-left"></i>
+                            <span> poprzedni</span>
+                        </a>
+                    </div>
+
+                    <div class="angles_right">
+                        <a class="both_angles" href="#">
+                            <span>następny </span>
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+    <div class="message hideClass">
+        <form class="message__container">
+            <h3 class="message__first">Witaj,</h3>
+            <h4 class="message__second">wygląda na to, że jesteś tutaj </br>
+                pierwszy raz!</h4>
+
+            <label for="name"></label>
+            <input class="message__container--input" required type="text" id="name" name="name"
+                   placeholder="tutaj wpisz jak masz na imię"/>
+            <button type="submit" class="message__container--button">Gotowe!</button>
+            <p class="message__container--paragraph">Podaj nam swoje imię, a my zorganizujemy </br>
+                dla Ciebie naszą aplikację :)</p>
+        </form>
+    </div>
+
+    <section class="new_recipe_box hide_recipe">
+        <header class="new_recipe">
+
+            <div class="new_recipe_first">
+                <h2 class="recipe_text">nowy przepis</h2>
+                <button class="close_recipe">Zapisz i zamknij</button>
+            </div>
+
+
+            <div class="first_input both_input_recipe">
+                <h2 class="text_input_recipe">Nazwa przepisu</h2>
+                <input class="input_text_recipe" type="text">
+            </div>
+
+            <div class="secondary_input both_input_recipe">
+                <h2 class="text_input_recipe">Opis przepisu</h2>
+                <label for="recipe">
+                    <textarea class="text_area_recipe" name="" id="recipe" cols="122" rows="3"></textarea>
+                </label>
+            </div>
+
+        </header>
+        <main class="recipe_main">
+
+            <div class="instructions_recipe">
+
+                <div class="inst-box">
+                    <h2>instrukcje</h2>
+                </div>
+
+                <label for="inst">
+                    <textarea class="inst_area instructions" name="" id="inst" cols="65" rows="3"></textarea>
+                    <a href="#">
+                        <i class="fa-solid fa-square-plus plus add_instructions"></i>
+                    </a>
+                </label>
+
+                <div class="instruction_recipe">
+                    <ol class="affter_li ol_instructions">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolor s
+                            it amet, consectetursicing elit. Corporis, deserunt dicta modi nesciunt nulla ut?
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum d
+                            olor sit amet, conse adipisicing elit. Consequatur eius eos, quam qui quia sequi.
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolor
+                            sit amet, consectetuisicing elit. Consectetur est illo quae quam quibusdam, sit!
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolo
+                            r sit amet, consecteipisicing elit. Dolorem modi nam nostrum ratione sed tenetur.
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolor sit amet
+                            , consectetur adipiselit. Aliquid, debitis fuga nemo numquam praesentium tempore?
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolor sit am
+                            et, consectetur adipg elit. Ab, culpa eaque mollitia repellendus temporibus unde.
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum do
+                            lor sit amet, consecadipisicing elit. Ad aliquid aut nihil, quo suscipit tempore?
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+
+                    </ol>
+                </div>
+            </div>
+
+
+            <div class="instructions_recipe">
+
+                <div class="inst-box">
+                    <h2>składniki</h2>
+                </div>
+                <label for="inst">
+                    <textarea class="inst_area ingredients"  name="" id="inst" cols="65" rows="3"></textarea>
+                    <a class="add_ingredient" href="#">
+                        <i class="fa-solid fa-square-plus plus add_ingrediens"></i>
+                    </a>
+                </label>
+
+                <div class="instruction_recipe">
+                    <ol class="affter_li ol_ingredients">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolor si
+                            t amet, consectetur icing elit. Dignissimos, ea fugit nihil nisi sunt temporibus?
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolor sit amet, consec
+                            tetur adipisicing elias blanditiis consequatur distinctio dolore vitae? Possimus?
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolor sit amet, consectetu
+                            r adipisicing elit. ctio dolores exercitationem, impedit quod tempore voluptatum.
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolor sit amet, c
+                            onsectetur adipisicit. Architecto aspernatur autem, dignissimos ex incidunt quos.
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolo
+                            r sit amet, consecteipisicing elit. Aut et harum hic illo quibusdam voluptatibus.
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolor s
+                            it amet, consectetursicing elit. Dolores harum ipsum optio ratione sequi, veniam.
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quo?Lorem ipsum dolor sit amet,
+                            consectetur adipisicit. Ea eos eveniet provident. Obcaecati, ratione, temporibus.
+                            <a class="edit_recipe" href="#">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </a>
+                            <a class="delete_recipe" href="#">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        </li>
+
+                    </ol>
+                </div>
+            </div>
+
+
+        </main>
+
+    </section>
+
+    <section class="new-plan__box hideClass_plan">
+        <form class="new-plan__form">
+            <header class="new-plan__heading">
+                <h2 class="new-plan__heading-title">Nowy plan</h2>
+                <button type="submit" class="new-plan__heading-btn">Zapisz i zamknij</button>
+            </header>
+
+            <div class="new-plan__description">
+                <div class="plan__box">
+                    <label for="plan-name">Nazwa planu</label>
+                    <input type="text" id="plan-name" name="plan-name" required>
+                </div>
+
+                <div class="description__box">
+                    <label for="plan-description">Opis planu</label>
+                    <textarea name="plan-description" id="plan-description" cols="10" rows="10" required></textarea>
+                </div>
+
+                <div class="plan-number__box">
+                    <label for="plan-number">Numer tygodnia</label>
+                    <input type="number" id="plan-number" name="plan-number" required>
+                </div>
+            </div>
+
+            <table class="new-plan__table">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Śniadanie</th>
+                    <th>Drugie<br>śniadanie</th>
+                    <th>Zupa</th>
+                    <th>Drugie<br>Danie</th>
+                    <th>Kolacja</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="new-plan__monday-tr">
+                    <td>Poniedziałek</td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                </tr>
+                <tr class="new-plan__tuesday-tr">
+                    <td>Wtorek</td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                </tr>
+                <tr class="new-plan__wednesday-tr">
+                    <td>Środa</td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                </tr>
+                <tr class="new-plan__thursday-tr">
+                    <td>Czwartek</td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                </tr>
+                <tr class="new-plan__friday-tr">
+                    <td>Piątek</td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                </tr>
+                <tr class="new-plan__saturday-tr">
+                    <td>Sobota</td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                </tr>
+                <tr class="new-plan__sunday-tr">
+                    <td>Niedziela</td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                    <td><select><option>opcja 1<option><option>opcja 2<option><option>opcja 3<option</select></td>
+                </tr>
+                </tbody>
+            </table>
+
+
+        </form>
+    </section>
+        <section class="plans_box hidePlans">
+            <div class="container_plans">
+                <div class="list_plan_button">
+                    <p class="color-list-text" >lista planów</p>
+                    <a class="add_plans" href="#">
+                        <i class="fa-solid fa-square-plus plus-x"></i>
+                    </a>
+                </div>
+                <div class="id_name ">
+                    <h2 class="text_plans_box box-1 all_plans">id</h2>
+                    <h2 class="text_plans_box box-2 all_plans">nazwa</h2>
+                    <h2 class="text_plans_box box-3 all_plans" >opis</h2>
+                    <h2 class="text_plans_box box-4 all_plans">tydzień</h2>
+                    <h2 class="text_plans_box box-5 all_plans">akcje</h2>
+                </div>
+                <div class="text_plans_box">
+                    <p class=" text-box-1">2</p>
+                    <p class=" text-box-2">Lorem ipsum dolor sit amet.</p>
+                    <p class=" text-box-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorum, ducimus eaque eius eum ex
+                        facere fugit incidunt inventore iure laudantium, minima minus necessitatibus nemo nihil odit quis quos sapiente temporib
+                        us voluptates. Amet at corporis dolorum et nihil,
+                        odit omnis soluta temporibus. Est et fuga illo laborum minus nam nostrum.</p>
+                    <p class=" text-box-4">46</p>
+                    <div class=" text-box-5">
+                        <a href="#">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text_plans_box">
+                    <p class=" text-box-1">3</p>
+                    <p class=" text-box-2">Lorem ipsum dolor sit amet.</p>
+                    <p class=" text-box-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorum, ducimus eaque eius eum ex
+                        facere fugit incidunt inventore iure laudantium, minima minus necessitatibus nemo nihil odit quis quos sapiente temporib
+                        us voluptates. Amet at corporis dolorum et nihil,
+                        odit omnis soluta temporibus. Est et fuga illo laborum minus nam nostrum.</p>
+                    <p class=" text-box-4">46</p>
+                    <div class=" text-box-5">
+                        <a href="#">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text_plans_box">
+                    <p class=" text-box-1">3</p>
+                    <p class=" text-box-2">Lorem ipsum dolor sit amet.</p>
+                    <p class=" text-box-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorum, ducimus eaque eius eum ex
+                        facere fugit incidunt inventore iure laudantium, minima minus necessitatibus nemo nihil odit quis quos sapiente temporib
+                        us voluptates. Amet at corporis dolorum et nihil,
+                        odit omnis soluta temporibus. Est et fuga illo laborum minus nam nostrum.</p>
+                    <p class=" text-box-4">46</p>
+                    <div class=" text-box-5">
+                        <a href="#">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text_plans_box">
+                    <p class=" text-box-1">3</p>
+                    <p class=" text-box-2">Lorem ipsum dolor sit amet.</p>
+                    <p class=" text-box-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorum, ducimus eaque eius eum ex
+                        facere fugit incidunt inventore iure laudantium, minima minus necessitatibus nemo nihil odit quis quos sapiente temporib
+                        us voluptates. Amet at corporis dolorum et nihil,
+                        odit omnis soluta temporibus. Est et fuga illo laborum minus nam nostrum.</p>
+                    <p class=" text-box-4">46</p>
+                    <div class=" text-box-5">
+                        <a href="#">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text_plans_box">
+                    <p class=" text-box-1">3</p>
+                    <p class=" text-box-2">Lorem ipsum dolor sit amet.</p>
+                    <p class=" text-box-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorum, ducimus eaque eius eum ex
+                        facere fugit incidunt inventore iure laudantium, minima minus necessitatibus nemo nihil odit quis quos sapiente temporib
+                        us voluptates. Amet at corporis dolorum et nihil,
+                        odit omnis soluta temporibus. Est et fuga illo laborum minus nam nostrum.</p>
+                    <p class=" text-box-4">46</p>
+                    <div class=" text-box-5">
+                        <a href="#">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text_plans_box">
+                    <p class=" text-box-1">3</p>
+                    <p class=" text-box-2">Lorem ipsum dolor sit amet.</p>
+                    <p class=" text-box-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorum, ducimus eaque eius eum ex
+                        facere fugit incidunt inventore iure laudantium, minima minus necessitatibus nemo nihil odit quis quos sapiente temporib
+                        us voluptates. Amet at corporis dolorum et nihil,
+                        odit omnis soluta temporibus. Est et fuga illo laborum minus nam nostrum.</p>
+                    <p class=" text-box-4">46</p>
+                    <div class=" text-box-5">
+                        <a href="#">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text_plans_box">
+                    <p class=" text-box-1">4</p>
+                    <p class=" text-box-2">Lorem ipsum dolor sit amet.</p>
+                    <p class=" text-box-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorum, ducimus eaque eius eum ex
+                        facere fugit incidunt inventore iure laudantium, minima minus necessitatibus nemo nihil odit quis quos sapiente temporib
+                        us voluptates. Amet at corporis dolorum et nihil,
+                        odit omnis soluta temporibus. Est et fuga illo laborum minus nam nostrum.</p>
+                    <p class=" text-box-4">46</p>
+                    <div class=" text-box-5">
+                        <a href="#">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text_plans_box">
+                    <p class=" text-box-1">5</p>
+                    <p class=" text-box-2">Lorem ipsum dolor sit amet.</p>
+                    <p class=" text-box-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorum, ducimus eaque eius eum ex
+                        facere fugit incidunt inventore iure laudantium, minima minus necessitatibus nemo nihil odit quis quos sapiente temporib
+                        us voluptates. Amet at corporis dolorum et nihil,
+                        odit omnis soluta temporibus. Est et fuga illo laborum minus nam nostrum.</p>
+                    <p class=" text-box-4">46</p>
+                    <div class=" text-box-5">
+                        <a href="#">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text_plans_box">
+                    <p class=" text-box-1">6</p>
+                    <p class=" text-box-2">Lorem ipsum dolor sit amet.</p>
+                    <p class=" text-box-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorum, ducimus eaque eius eum ex
+                        facere fugit incidunt inventore iure laudantium, minima minus necessitatibus nemo nihil odit quis quos sapiente temporib
+                        us voluptates. Amet at corporis dolorum et nihil,
+                        odit omnis soluta temporibus. Est et fuga illo laborum minus nam nostrum.</p>
+                    <p class=" text-box-4">46</p>
+                    <div class=" text-box-5">
+                        <a href="#">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+</section>
+
+
+<script src="./js/app.js"></script>
+</body>
+</html>

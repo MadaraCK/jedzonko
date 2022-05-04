@@ -1,0 +1,32 @@
+// CDN FONTAWESOME
+// <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+//
+// Sass:
+// https://fontawesome.com/how-to-use/on-the-web/using-with/sass
+
+@import "reset/restet";
+@import "variables/variables";
+@import "functions/function";
+@import "components/carousel";
+@import "components/about_me";
+@import "components/header";
+@import "../scss/components/aboutApp";
+
+
+
+@import "components/callToAction";
+@import "components/newsletter";
+@import "components/footer";
+
+@import "components/app/mainView";
+
+@import "components/app/widget";
+
+@import "components/app/mainForm";
+@import "components/app/newRecipe";
+
+@import "components/app/recipeList";
+
+@import "components/app/newPlan";
+@import "components/app/plan";
+
